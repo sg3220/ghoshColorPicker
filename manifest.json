@@ -1,0 +1,17 @@
+{
+  "name": "Color-Picker",
+  "description": "Pick The Color Of The Internet :)",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.JS"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "options_page": "options.HTML",
+  "action": {
+    "default_popup": "popup.HTML"
+  },
+  "icons": {
+    "48": "/Images/colorPicker.png"
+  }
+}
